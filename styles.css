@@ -2,6 +2,13 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-p, li {
-    max-width: 683px;
+body {
+    width: 683px;
+    margin: 0 auto;
 }
+
+h1, h2 {
+    text-align: center;
+    margin-top: 40px
+}
+
