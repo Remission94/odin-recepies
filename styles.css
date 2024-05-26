@@ -4,12 +4,44 @@
 
 body {
     width: 683px;
-    margin: 0 auto;
+    margin: 0 auto 100px;
 }
 
 h1, h2 {
     text-align: center;
-    margin-top: 40px
+ 
 }
 
- 
+ h1 {
+    background-color: rgb(182, 236, 236);
+    padding: 10px;
+    border: 2px dotted rgb(3, 36, 107);
+ }
+
+ .ingredients {
+    background-color: bisque;
+    border: 2px dotted rgb(84, 94, 1);
+    margin-bottom: 40px;
+    padding: 0 20px 0 0;
+ }
+
+ .steps {
+    background-color: rgb(245, 141, 141);
+    border: 2px dotted rgb(94, 12, 1);
+    margin-bottom: 40px;
+    padding: 0 20px 0 0;
+ }
+
+ .back {
+    display: inline-block;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 2px 5px;
+ }
+
+ .recipe h2 {
+    margin: 50px 0 0 0;
+    padding: 10px 0;
+    width: 683px;
+    background-color: bisque;
+ }
+
